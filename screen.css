@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #fff;
+  font-size: 1.5em;
+  line-height: 0.5em;
+}
+
+.wrapper {
+  padding-top: 100px;
+  margin: 0px auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.calc {
+  background-color: #64b255;
+  width: 80%;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+#clear {
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  width: 25.25%;
+}
+
+.output {
+  width: 74.75%;
+}
+
+p {
+  color: #fff;
+  font-size: 1.5em;
+  line-height: 0;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.row1,
+.row2,
+.row3,
+.row4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-top: 1px solid #fff;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #fff;
+  font-size: 1.5em;
+  width: 25%;
+  padding: 20px 0;
+  margin: 0px auto;
+  border-left: 1px solid #fff;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.btn-click {
+  background-color: #83c178;
+}
+
+.operator {
+  background-color: #83c178;
+  color: #333;
+  width: 25%;
+}
+
+.operator:hover {
+  color: #fff;
+  background-color: #83c178;
+}
+
+@media (min-width: 700px) {
+  .calc {
+    width: 45%;
+  }
+}
+
+@media (min-width: 900px) {
+  .calc {
+    width: 35%;
+  }
+}
