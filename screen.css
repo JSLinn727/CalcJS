@@ -8,51 +8,12 @@ body {
   line-height: 0.5em;
 }
 
-.wrapper {
-  padding-top: 6.2em;
-  margin: 0em auto;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.calc {
-  background-color: #64b255;
-  width: 80%;
-}
-
-.top {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  align-items: center;
-}
-
-#clear {
-  border-left: .04em solid #fff;
-  border-right: .04em solid #fff;
-  width: 17%;
-}
-
-.output {
-  width: 74.75%;
-}
-
 p {
   color: #fff;
   font-size: .9em;
   line-height: 0;
   text-align: right;
   padding-right: 10;
-}
-
-.row1,
-.row2,
-.row3,
-.row4 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 button {
@@ -73,6 +34,42 @@ button:focus {
   outline: 0;
 }
 
+.wrapper {
+  padding-top: 6.2em;
+  margin: 0em auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.calc {
+  background-color: #64b255;
+  width: 80%;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+
+.output {
+  width: 74.75%;
+}
+
+
+
+.row1,
+.row2,
+.row3,
+.row4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .btn-click {
   background-color: #83c178;
 }
@@ -86,6 +83,12 @@ button:focus {
 .operator:hover {
   color: #fff;
   background-color: #83c178;
+}
+
+#clear {
+  border-left: .04em solid #fff;
+  border-right: .04em solid #fff;
+  width: 17%;
 }
 
 @media (min-width: 700px) {
