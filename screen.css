@@ -10,7 +10,7 @@ body {
 
 .wrapper {
   padding-top: 6.2em;
-  margin: 0px auto;
+  margin: 0em auto;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -66,7 +66,7 @@ button {
   font-size: 1.5em;
   width: 25%;
   padding: .5em 0;
-  margin: 0px auto;
+  margin: 0em auto;
   border-left: .04em solid #fff;
   cursor: pointer;
 }
