@@ -31,7 +31,7 @@ body {
 #clear {
   border-left: .04em solid #fff;
   border-right: .04em solid #fff;
-  width: 25.25%;
+  width: 17%;
 }
 
 .output {
@@ -40,7 +40,7 @@ body {
 
 p {
   color: #fff;
-  font-size: 1.5em;
+  font-size: .9em;
   line-height: 0;
   text-align: right;
   padding-right: 10;
@@ -53,20 +53,18 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  border-top: .04em solid #fff;
 }
 
 button {
   background-color: transparent;
-  border: 0;
+  border-radius: 2em;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
+  font-weight: 200;
   color: #fff;
-  font-size: 1.5em;
-  width: 25%;
+  font-size: .9em;
+  width: 20%;
   padding: .5em 0;
-  margin: 0em auto;
+  margin: .5em;
   border-left: .04em solid #fff;
   cursor: pointer;
 }
@@ -82,7 +80,7 @@ button:focus {
 .operator {
   background-color: #83c178;
   color: #333;
-  width: 25%;
+  width: 20%;
 }
 
 .operator:hover {
