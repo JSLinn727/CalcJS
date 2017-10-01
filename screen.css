@@ -6,6 +6,10 @@ body {
   color: #fff;
   font-size: 1.5em;
   line-height: 0.5em;
+  background-image: url('./desk.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 p {
@@ -19,19 +23,23 @@ p {
 button {
   background-color: transparent;
   border-radius: 2em;
+  border: .1em solid #b9bab9;
   font-family: 'Open Sans', sans-serif;
   font-weight: 200;
-  color: #fff;
+  color: black;
   font-size: .9em;
-  width: 20%;
+  width: 3em;
   padding: .5em 0;
   margin: .5em;
-  border-left: .04em solid #fff;
   cursor: pointer;
 }
 
 button:focus {
   outline: 0;
+}
+
+button:hover {
+  color: white;
 }
 
 .wrapper {
@@ -43,8 +51,8 @@ button:focus {
 }
 
 .calc {
-  background-color: #64b255;
-  width: 80%;
+  background-color: #d5d6d5;
+  width: 20;
 }
 
 .top {
@@ -57,9 +65,12 @@ button:focus {
 
 .output {
   width: 74.75%;
+  background-color: #c7c8c7;
+  height: 1.8em;
+  border-radius: .3em;
+  padding-right: .5em;
+  margin-right: .4em;
 }
-
-
 
 .row1,
 .row2,
@@ -71,27 +82,28 @@ button:focus {
 }
 
 .btn-click {
-  background-color: #83c178;
+  background-color: #f94c3a;
 }
 
 .operator {
-  background-color: #83c178;
+  background-color: #f09233;
   color: #333;
   width: 20%;
 }
 
 .operator:hover {
   color: #fff;
-  background-color: #83c178;
+  background-color: #f09233;
 }
 
 #clear {
   border-left: .04em solid #fff;
   border-right: .04em solid #fff;
   width: 17%;
+  background-color: #;
 }
 
-@media (min-width: 700px) {
+/*@media (min-width: 700px) {
   .calc {
     width: 45%;
   }
@@ -101,4 +113,4 @@ button:focus {
   .calc {
     width: 35%;
   }
-}
+}*/
