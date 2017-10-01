@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "scripts": {
+    "deploy": "surge ./public --domain hack-zika.camposja.surge.sh",
+    "start": "browser-sync start --server --files '*'"
+  },
+  "dependencies": {
+    "browser-sync": "^2.18.13"
+  }
+}

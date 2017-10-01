@@ -1,4 +1,3 @@
-// Variables declared for calculator
 const clear = document.getElementById('clear')
 const operator = document.querySelectorAll('.operator')
 const output = document.querySelector('.results-box')
