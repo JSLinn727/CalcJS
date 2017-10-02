@@ -5,6 +5,7 @@
     "start": "browser-sync start --server --files '*'"
   },
   "dependencies": {
-    "browser-sync": "^2.18.13"
+    "browser-sync": "^2.18.13",
+    "gh-pages": "^1.0.0"
   }
 }
